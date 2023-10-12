@@ -5,9 +5,9 @@ pipeline {
     }
 
     environment {
-DOCKERHUB_CREDENTIALS = credentials('dockeruserhemanth7901')
+DOCKERHUB_CREDENTIALS = credentials('hemanth7901')
      registry = "hemanth7901/backendlms"
-        registryCredential = 'dockeruserhemanth7901'
+        registryCredential = 'hemanth7901'
         dockerImage = ''
     }
 stages {
